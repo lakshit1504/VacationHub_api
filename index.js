@@ -24,7 +24,7 @@ app.use(cookieParser());
 app.use('/uploads', express.static(__dirname+'/uploads'));
 app.use(cors({
   credentials: true,
-  origin: 'https://vacation-hub.vercel.app',
+  origin: 'https://vacation-hub.vercel.app/',
 }));
 
 mongoose.connect("mongodb+srv://lakshit_juneja:2FTB3NtmQ4l23V8J@cluster0.6q9oq9v.mongodb.net/?retryWrites=true&w=majority");
